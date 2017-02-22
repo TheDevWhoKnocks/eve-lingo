@@ -1,0 +1,27 @@
+:root {
+   --baseFont: 'Arial', 'Helvetica Neue', 'Free Sans', sans-serif;
+   --baseColour: grey;
+}
+
+html,
+body {
+   font-family: var(--baseFont);
+   font-size: 16px;
+   color: var(--baseColour);
+   box-sizing: border-box;
+   background-color: rebeccapurple;
+}
+
+h1 {
+  filter: blur(4px);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  box-sizing: content-box;
+}
