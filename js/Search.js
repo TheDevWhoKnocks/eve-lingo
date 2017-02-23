@@ -6,7 +6,7 @@ const { arrayOf, shape, string } = React.PropTypes
 
 const Search = React.createClass({
   propTypes: {
-    shows: arrayOf(shape({
+    lingos: arrayOf(shape({
       title: string,
       description: string
     })),
@@ -17,11 +17,11 @@ const Search = React.createClass({
       <div className='search'>
         <Header showSearch />
         <div>
-          {this.props.shows
-            .filter((show) => `${show.title} ${show.description}`.toUpperCase().indexOf(this.props.searchTerm.toUpperCase()) >= 0)
-            .map((show) => {
+          {this.props.lingos
+            .filter((lingo) => `${lingo.abbreviation} ${lingo.title} ${lingo.description}`.toUpperCase().indexOf(this.props.searchTerm.toUpperCase()) >= 0)
+            .map((lingo) => {
               return (
-                <ShowCard key={show.imdbID} {...show} />
+                <ShowCard key={lingo.uid} {...lingo} />
               )
             })}
         </div>

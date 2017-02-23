@@ -22,11 +22,16 @@ const Landing = React.createClass({
   render () {
     return (
       <div className='landing'>
-        <h1>svideo</h1>
-        <form onSubmit={this.handleSearchSubmit}>
-          <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
-        </form>
-        <Link to='/search'>or Browse All</Link>
+        <div className='header'>
+          <h1 className='heading'>ΞVΞ LIΠGΘ</h1>
+          <h5 className='heading heading--sm'>Fly <span className='line-through'>safe</span> smarter.</h5>
+        </div>
+        <div className='wrapper'>
+          <form onSubmit={this.handleSearchSubmit}>
+            <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
+          </form>
+          <Link to='/search'>or Browse All</Link>
+        </div>
       </div>
     )
   }

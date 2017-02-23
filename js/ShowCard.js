@@ -4,21 +4,21 @@ const { string } = React.PropTypes
 
 const ShowCard = React.createClass({
   propTypes: {
-    poster: string.isRequired,
+    uid: string.isRequired,
+    abbreviation: string.isRequired,
     title: string.isRequired,
-    year: string.isRequired,
     description: string.isRequired,
-    imdbID: string.isRequired
+    image: string.isRequired
   },
   render () {
-    const { poster, title, year, description, imdbID } = this.props
+    const { uid, abbreviation, title, description, image } = this.props
     return (
-      <Link to={`/details/${imdbID}`}>
+      <Link to={`/details/${uid}`}>
         <div className='show-card'>
-          <img src={`/public/img/posters/${poster}`} />
+          <img src={`/public/img/icons/${image}`} />
           <div>
             <h3>{title}</h3>
-            <h4>({year})</h4>
+            <h4>({abbreviation})</h4>
             <p>{description}</p>
           </div>
         </div>

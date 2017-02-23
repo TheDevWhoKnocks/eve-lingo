@@ -1,0 +1,28 @@
+{
+  "lingos": [{
+      "uid": "1",
+      "abbreviation": "AB",
+      "title": "Afterburner",
+      "description": "Afterburners are the less popular speed boosting option, offering a 200% speed boost but without penalties. Contrast with MWDs.",
+      "image": "32px-afterburner-t1.png"
+    }, {
+      "uid": "2",
+      "abbreviation": "ABC",
+      "title": "ABC Ores",
+      "description": "Arkanor, Bistot, and Crokite, respectively. These three ores are the most valuable of the standard ore types. This term is often used to when discussing the economics of mining in null-sec.",
+      "image": "icon_stasis_webifier.png"
+    }, {
+      "uid": "3",
+      "abbreviation": "AC",
+      "title": "Autocannons",
+      "description": "Autocannons are one of two kinds of projectile turrets, being intended for closer rather than longer range. See 'Arties.'",
+      "image": ""
+    }, {
+      "uid": "",
+      "abbreviation": "",
+      "title": "",
+      "description": "",
+      "image": ""
+    }
+  ]
+}

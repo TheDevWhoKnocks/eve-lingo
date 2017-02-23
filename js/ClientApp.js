@@ -6,7 +6,7 @@ import store from './store'
 import Landing from './Landing'
 import Search from './Search'
 import Details from './Details'
-import preload from '../public/data.json'
+import preload from '../public/lingo.json'
 import '../public/normalize.css'
 import '../public/css/main.css'
 
@@ -19,13 +19,13 @@ const App = React.createClass({
             <Match exactly pattern='/' component={Landing} />
             <Match
               pattern='/search'
-              component={(props) => <Search shows={preload.shows} {...props} />}
+              component={(props) => <Search lingos={preload.lingos} {...props} />}
             />
             <Match
               pattern='/details/:id'
               component={(props) => {
-                const shows = preload.shows.filter((show) => props.params.id === show.imdbID)
-                return <Details show={shows[0]} {...props} />
+                const lingos = preload.lingos.filter((lingo) => props.params.id === lingo.uid)
+                return <Details lingo={lingos[0]} {...props} />
               }}
             />
           </div>

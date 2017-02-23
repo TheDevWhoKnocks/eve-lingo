@@ -29,7 +29,10 @@ class Header extends React.Component {
       <header>
         <h1>
           <Link to='/'>
-            svideo
+            <div className='header'>
+              <h1 className='heading'>ΞVΞ LIΠGΘ</h1>
+              <h5 className='heading heading--sm'>Fly <span className='line-through'>safe</span> smarter.</h5>
+            </div>
           </Link>
         </h1>
         {utilSpace}
