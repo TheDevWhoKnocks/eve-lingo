@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import ShowCard from './ShowCard'
 import Header from './Header'
-const { arrayOf, shape, string } = React.PropTypes
+const { arrayOf, shape, string, bool } = React.PropTypes
 
 const Search = React.createClass({
   propTypes: {
@@ -10,12 +10,16 @@ const Search = React.createClass({
       title: string,
       description: string
     })),
-    searchTerm: string
+    searchTerm: string,
+    showSearch: bool
   },
   render () {
     return (
       <div className='search'>
-        <Header showSearch />
+        <div className='header'>
+          <Header showSearch />
+        </div>
+
         <div>
           {this.props.lingos
             .filter((lingo) => `${lingo.abbreviation} ${lingo.title} ${lingo.description}`.toUpperCase().indexOf(this.props.searchTerm.toUpperCase()) >= 0)
@@ -24,6 +28,7 @@ const Search = React.createClass({
                 <ShowCard key={lingo.uid} {...lingo} />
               )
             })}
+            {utilSpace}
         </div>
       </div>
     )
