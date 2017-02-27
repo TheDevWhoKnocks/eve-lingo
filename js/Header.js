@@ -18,8 +18,8 @@ class Header extends React.Component {
       utilSpace = <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
     } else {
       utilSpace = (
-        <h2>
-          <Link to='/search'>
+        <h2 className='subheading center'>
+          <Link to='/search' className='link link--back center'>
             Back
           </Link>
         </h2>

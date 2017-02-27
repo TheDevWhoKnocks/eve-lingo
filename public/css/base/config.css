@@ -12,7 +12,7 @@ body {
 }
 
 html {
-  background: url(./public/img/bg/eveonline.jpg) black no-repeat center center fixed;
+  background: url(../img/bg/eveonline.jpg) black no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -34,13 +34,21 @@ img {
 .app {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 30px 0;
+}
+
+.link--back {
+  text-align: center;
+}
+
+.subheading {
+
 }
 
 .header {
   max-width: 380px;
   margin: 0 auto;
   text-align: center;
-  padding: 30px 0;
 }
 
 h1, a {

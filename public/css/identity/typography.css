@@ -9,6 +9,33 @@
   margin-right: 10px;
 }
 
+.heading--md {
+  font-size: 48px;
+}
+
+.heading--lp {
+  color: #222;
+  text-shadow: 0px 2px 3px #555;
+}
+
 .line-through {
   text-decoration: line-through;
+}
+
+@custom-media --medium-viewport only screen and (min-width: 31em);
+@custom-media --large-viewport only screen and (min-width: 43em);
+
+.caveat {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  font-size: 11px;
+
+  &--right {
+    left: auto;
+    right: 10px;
+  }
+  @media (--medium-viewport) {
+    font-size: inherit;
+  }
 }

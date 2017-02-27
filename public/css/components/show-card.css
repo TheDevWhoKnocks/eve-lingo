@@ -1,0 +1,33 @@
+.show-card {
+  display: block;
+  margin: 20px 0;
+  padding: 30px;
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transition: 0.3s ease-in-out;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__image {
+  }
+}
+
+.text {
+
+  &--fixed {
+    max-width: 70ch;
+  }
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}

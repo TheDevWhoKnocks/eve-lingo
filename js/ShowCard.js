@@ -15,11 +15,13 @@ const ShowCard = React.createClass({
     return (
       <Link to={`/details/${uid}`}>
         <div className='show-card'>
-          <img src={`/public/img/icons/${image}`} />
-          <div>
-            <h3>{title}</h3>
-            <h4>({abbreviation})</h4>
-            <p>{description}</p>
+          <div className='show-card__content'>
+            <img src={`/public/img/icons/${image}`} className='icon show-card__image' />
+            <div>
+              <h3 className='heading heading--md heading--lp'>{title}</h3>
+              <h4 className='subheading'>({abbreviation})</h4>
+              <p className='text text--fixed center'>{description}</p>
+            </div>
           </div>
         </div>
       </Link>
