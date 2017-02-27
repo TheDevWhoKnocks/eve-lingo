@@ -31,6 +31,10 @@ const Landing = React.createClass({
           </form>
           <Link to='/search'>Browse all, capsuleer</Link>
         </div>
+        <div className='caveats align-left'>
+          <p>This site is in no way affiliated with CCP Games</p>
+          <p>Created by <a href='http://russellbrook.co.uk' target='_blank' title='LoneMerc'>LoneMerc</a></p>
+        </div>
       </div>
     )
   }

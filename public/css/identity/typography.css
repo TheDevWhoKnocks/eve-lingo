@@ -25,17 +25,9 @@
 @custom-media --medium-viewport only screen and (min-width: 31em);
 @custom-media --large-viewport only screen and (min-width: 43em);
 
-.caveat {
+.caveats {
   position: absolute;
+  width: 100%;
   bottom: 0;
   left: 10px;
-  font-size: 11px;
-
-  &--right {
-    left: auto;
-    right: 10px;
-  }
-  @media (--medium-viewport) {
-    font-size: inherit;
-  }
 }
