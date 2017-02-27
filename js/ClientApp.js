@@ -28,8 +28,6 @@ const App = React.createClass({
                 return <Details lingo={lingos[0]} {...props} />
               }}
             />
-            <p className='caveat'>This site is in no way affiliated with CCP Games.</p>
-            <p className='caveat caveat--right'>Created by <a href='http://russellbrook.co.uk' target='_blank' title='LoneMerc'>LoneMerc</a></p>
           </div>
         </Provider>
       </BrowserRouter>
