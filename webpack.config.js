@@ -1,19 +1,17 @@
 const path                = require('path')
 const webpack             = require('webpack')
-const extractTextPlugin   = require('extract-text-webpack-plugin')
+const ExtractTextPlugin   = require('extract-text-webpack-plugin')
 
 module.exports = {
-  context: path.resolve(__dirname),
+  // context: path.resolve(__dirname),
   entry: './js/ClientApp.js',
   devtool: 'eval',
   output: {
-    path: path.join(__dirname, './public'),
-    filename: 'bundle.js',
-    publicPath: './public/'
+    // path: path.join(__dirname, './public/'),
+    filename: path.join(__dirname, './public/bundle.js')
   },
   devServer: {
-    publicPath: '/public/',
-    historyApiFallback: true
+    contentBase: path.join(__dirname, '/')
   },
   resolve: {
     extensions: ['.css', '.js', '.json']
@@ -42,16 +40,18 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader?importLoaders=1!postcss-loader',
-            options: {
-              url: false
-            }
-          }
-        ]
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'postcss-loader']
+        })
+      },
+      {
+        test: /\.(jpe?g|gif|png)$/,
+        loader: 'url-loader'
       }
     ]
   },
+  plugins: [
+    new ExtractTextPlugin(path.resolve(__dirname, './public/bundle.css'))
+  ]
 }

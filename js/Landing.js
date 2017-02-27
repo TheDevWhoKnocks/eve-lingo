@@ -26,9 +26,10 @@ const Landing = React.createClass({
           <h1 className='heading'>ΞVΞ LIΠGΘ</h1>
           <h5 className='heading heading--sm'>Fly <span className='line-through'>safe</span> smarter.</h5>
           <form onSubmit={this.handleSearchSubmit}>
-            <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search...' />
+            <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
+            <button className='button button--minimal' value={this.props.searchTerm}>Search</button>
           </form>
-          <Link to='/search'>or Browse All</Link>
+          <Link to='/search'>Browse all, capsuleer</Link>
         </div>
       </div>
     )
