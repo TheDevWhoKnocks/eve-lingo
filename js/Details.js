@@ -8,19 +8,24 @@ const Details = React.createClass({
       abbreviation: string,
       title: string,
       description: string,
-      image: string
+      image: string,
+      attribution: string
     })
   },
   render () {
-    const { abbreviation, title, description, image } = this.props.lingo
+    const { abbreviation, title, description, image, attribution } = this.props.lingo
     return (
       <div className='details'>
         <Header />
-        <section>
-          <h1>{title}</h1>
-          <h2>({abbreviation})</h2>
-          <img src={`/public/img/icons/${image}`} />
-          <p>{description}</p>
+        <section className='details-card'>
+          <div className='details__left'>
+            <img src={`/public/img/icons/${image}`} className='details-card__img' />
+          </div>
+          <div className='details__right'>
+            <h1 className='heading heading--md'>{title} ({abbreviation})</h1>
+            <p className='text'>{description}</p>
+            <p className='text text--sm'>{attribution}</p>
+          </div>
         </section>
       </div>
     )

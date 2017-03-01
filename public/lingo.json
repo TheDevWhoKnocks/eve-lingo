@@ -1,28 +1,40 @@
 {
-  "lingos": [{
+  "lingos": [
+    {
       "uid": "1",
       "abbreviation": "AB",
       "title": "Afterburner",
       "description": "Afterburners are the less popular speed boosting option, offering a 200% speed boost but without penalties. Contrast with MWDs.",
-      "image": "32px-afterburner-t1.png"
+      "image": "32px-afterburner-t1.png",
+      "attribution": "Description thanks to EVE University"
     }, {
       "uid": "2",
       "abbreviation": "ABC",
       "title": "ABC Ores",
       "description": "Arkanor, Bistot, and Crokite, respectively. These three ores are the most valuable of the standard ore types. This term is often used to when discussing the economics of mining in null-sec.",
-      "image": "icon_stasis_webifier.png"
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to Ten Ton Hammer"
     }, {
       "uid": "3",
       "abbreviation": "AC",
       "title": "Autocannons",
       "description": "Autocannons are one of two kinds of projectile turrets, being intended for closer rather than longer range. See 'Arties.'",
-      "image": ""
+      "image": "icon_autocannons.png",
+      "attribution": "Description thanks to Ten Ton Hammer"
     }, {
-      "uid": "",
-      "abbreviation": "",
-      "title": "",
-      "description": "",
-      "image": ""
+      "uid": "4",
+      "abbreviation": "CAP",
+      "title": "Capacitor Boosters",
+      "description": "Cap Boosters - these mid-slot modules use cap booster charges to inject a temporary amount of power into the capacitor. The boosters must be loaded with charges much in the same way that weapons are loaded with ammunition, and activated when required. Booster charges come in several sizes from 25 GJ to 800 GJ, measured in gigajoules (GJ). Cap boosters are most often employed in PvP ship configurations, which are generally not cap stable, to provide a safety margin in combat.",
+      "image": "icon_cap-booster.png",
+      "attribution": "Description thanks to EVE University"
+    }, {
+      "uid": "5",
+      "abbreviation": "AF",
+      "title": "Assault Frigates",
+      "description": "Assault frigates are tough, frigate-sized ships that can tank (See tanking) a great deal of damage. Though long cited as under-powered, they excel at missions that do not permit larger ships to run them.",
+      "image": "../ships/hawk-af.jpg",
+      "attribution": "Description thanks to Ten Ton Hammer"
     }
   ]
 }

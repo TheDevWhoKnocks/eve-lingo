@@ -74,3 +74,6 @@ input {
   border-radius: 3px;
   border: none;
 }
+
+@custom-media --medium-viewport only screen and (min-width: 31em);
+@custom-media --large-viewport only screen and (min-width: 43em);

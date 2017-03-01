@@ -1,1 +1,11 @@
-$white: white;
+$white: #FFF;
+
+.white {
+  color: $white;
+}
+
+$black: #000;
+
+.black {
+  color: $black;
+}

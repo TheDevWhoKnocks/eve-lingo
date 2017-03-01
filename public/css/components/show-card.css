@@ -17,6 +17,7 @@
   }
 
   &__image {
+    border-radius: 2px;
   }
 }
 

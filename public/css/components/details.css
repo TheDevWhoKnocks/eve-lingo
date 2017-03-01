@@ -1,0 +1,27 @@
+.details {
+
+  &-card {
+    width: 100%;
+    padding: 30px;
+    margin: 15px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    color: $black;
+
+    @media (--large-viewport) {
+      max-width: 50vw;
+    }
+
+    &__img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    &__right {
+      text-align: left;
+    }
+  }
+
+}
