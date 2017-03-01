@@ -22,12 +22,17 @@
   text-decoration: line-through;
 }
 
-@custom-media --medium-viewport only screen and (min-width: 31em);
-@custom-media --large-viewport only screen and (min-width: 43em);
-
 .caveats {
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 10px;
+}
+
+.text {
+  line-height: 20px;
+
+  &--sm {
+    font-size: 11px;
+  }
 }
