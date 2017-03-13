@@ -16,12 +16,11 @@
     &__img {
       max-width: 100%;
       border-radius: 4px;
-      margin-bottom: 10px;
     }
+  }
 
-    &__right {
-      text-align: left;
-    }
+  &__left {
+    margin-bottom: 10px;
   }
 
 }
