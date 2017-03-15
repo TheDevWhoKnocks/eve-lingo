@@ -4,12 +4,11 @@ const ExtractTextPlugin       = require('extract-text-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
-  // context: path.resolve(__dirname),
   entry: './js/ClientApp.js',
-  devtool: 'eval',
+  devtool: 'cheap-module-source-map', // eval
   output: {
-    // path: path.join(__dirname, './public/'),
-    filename: path.join(__dirname, './public/bundle.js')
+    // filename: path.join(__dirname, './public/bundle.js')
+    filename: './public/bundle.js'
   },
   devServer: {
     contentBase: path.join(__dirname, '/')
@@ -53,12 +52,17 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin(path.resolve(__dirname, './public/bundle.css')),
+    new ExtractTextPlugin(path.resolve(__dirname, '/public/bundle.css')),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
       cssProcessor: require('cssnano'),
       cssProcessorOptions: { discardComments: {removeAll: true } },
       canPrint: true
+    }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
     })
   ]
 }
