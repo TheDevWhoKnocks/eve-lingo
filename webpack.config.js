@@ -1,6 +1,7 @@
-const path                = require('path')
-const webpack             = require('webpack')
-const ExtractTextPlugin   = require('extract-text-webpack-plugin')
+const path                    = require('path')
+const webpack                 = require('webpack')
+const ExtractTextPlugin       = require('extract-text-webpack-plugin')
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
   // context: path.resolve(__dirname),
@@ -52,6 +53,12 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin(path.resolve(__dirname, './public/bundle.css'))
+    new ExtractTextPlugin(path.resolve(__dirname, './public/bundle.css')),
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /\.css$/g,
+      cssProcessor: require('cssnano'),
+      cssProcessorOptions: { discardComments: {removeAll: true } },
+      canPrint: true
+    })
   ]
 }
