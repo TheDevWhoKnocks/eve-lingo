@@ -625,10 +625,10 @@
       "attribution": "Description thanks to EVE-Wiki."
     }, {
       "uid": "89",
-      "abbreviation": "ECM",
-      "title": "Electronic Counter Measures",
-      "description": "Electronic Counter Meaures (usually referred to as ECMs) are modules used in Electronic Warfare to deny target lock to an enemy ship. This module comes in a variety of types. Basically it breaks an enemy ship's target lock, and keeps it that way for the duration of the module's cycle time (20 seconds). Without target lock, the affected ship can't do anything that requires target lock. This covers a wide variety of things, such as shooting most weapons, warp jamming someone, or even using ECM.",
-      "image": "ecm.png",
+      "abbreviation": "ZYD",
+      "title": "Zydrine Mineral",
+      "description": "Only found in huge geodes; rocks on the outside with crystal-like quartz on the inside. The rarest and most precious of these geodes are those that contain the dark green zydrine within. Very rare and very expensive. Crokite yields the most Zydrine.",
+      "image": "icon_mining.png",
       "attribution": "Description thanks to EVE-Wiki."
     }, {
       "uid": "90",
@@ -1008,13 +1008,6 @@
       "description": "An acronym for 'Want to Trade'.",
       "image": "isk.png",
       "attribution": ""
-    }, {
-      "uid": "144",
-      "abbreviation": "ZYD",
-      "title": "Zydrine Mineral",
-      "description": "Only found in huge geodes; rocks on the outside with crystal-like quartz on the inside. The rarest and most precious of these geodes are those that contain the dark green zydrine within. Very rare and very expensive. Crokite yields the most Zydrine.",
-      "image": "icon_mining.png",
-      "attribution": "Description thanks to EVE-Wiki."
     }
   ]
 }
