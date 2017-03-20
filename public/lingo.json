@@ -484,33 +484,537 @@
       "image": "icon_stasis_webifier.png",
       "attribution": "Description thanks to Ten Ton Hammer."
     }, {
-      "uid": "",
-      "abbreviation": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "attribution": "Description thanks to "
+      "uid": "70",
+      "abbreviation": "AP",
+      "title": "Autopilot",
+      "description": "A mode of automatic piloting, commonly used in Hi-Sec. Can be adjusted to avoid low-sec areas. As a known rule, one should never autopilot in low and null security space at all costs due to exiting warp around 15km from the gate.",
+      "image": "../other/ap.jpg",
+      "attribution": "Image courtesy of YouTube user Royal."
     }, {
-      "uid": "",
-      "abbreviation": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "attribution": "Description thanks to "
+      "uid": "71",
+      "abbreviation": "ALT",
+      "title": "Alternate Character",
+      "description": "A character that is not a main. Often created to perform a specific task, alts are used by many players in Eve. Some players use them so they can support themselves and therefore play solo whereas others still are team members but use both characters to either fill one role with more efficiency or two roles. Commonly used for corp spying.",
+      "image": "../other/alt.jpg",
+      "attribution": "Description thanks to Eve-Wiki. Image courtesy of YouTube user Jesse Mcree."
     }, {
-      "uid": "",
-      "abbreviation": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "attribution": "Description thanks to "
+      "uid": "72",
+      "abbreviation": "AoE",
+      "title": "Area of Effect",
+      "description": "Area of Effect. In EVE, this term describes a piece of equipment that can affect multiple targets within a radius around the source. Examples are: Smartbombs, an omnidirectional blast that emanates from the ship that uses it. Comes in three sizes and is available in all damage types, ECM Burst, an omnidirectional ECM emanating from the ship that uses it, Remote ECM Burst, an ECM burst that is projected onto the enemy from a distance by a *Mothership, and Bomb, a powerful and expensive weapon wielded by Stealth Bombers. Can be 'thrown' at the enemy by the momentum of the ship. Takes a few seconds to detonate, then causes extreme damage.",
+      "image": "../other/visual-damage.png",
+      "attribution": "Description thanks to EVE-Wiki."
     }, {
-      "uid": "",
-      "abbreviation": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "attribution": "Description thanks to "
+      "uid": "73",
+      "abbreviation": "ATT",
+      "title": "Attributes",
+      "description": "Character statistics sheet. Used for keeping track of your character development.",
+      "image": "../ships/zephyr.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Online Ships."
+    }, {
+      "uid": "74",
+      "abbreviation": "BB",
+      "title": "Blackbird",
+      "description": "The Blackbird is a small high-tech cruiser newly employed by the Caldari Navy. Commonly seen in fleet battles or acting as wingman, it is not intended for head-on slugfests, but rather delicate tactical situations. Build as a utility ship, a Blackbird is an uncommon sight in Caldari space. Its mixed weapons setup and lack of weapon bonusses makes it hard to fly for rookie pilots and it lacks a drone bay, which makes it even less suitable for solo missions. Its main purpose is seen as a cheap but effective ECM utility vessel in gangs or fleets.",
+      "image": "../ships/blackbird.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Online Ships."
+    }, {
+      "uid": "75",
+      "abbreviation": "BIST",
+      "title": "Bistot Ore",
+      "description": "Bistot is a very valuable ore as it holds large portions of two of the rarest minerals in the world, megacyte and zydrine. The portion size for refining is 200 ore units. Found in 0.0 space.",
+      "image": "../other/minerals-list.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "76",
+      "abbreviation": "BLOB",
+      "title": "Blob",
+      "description": "Fleet of ships massively outnumbering the enemy. A very large group of people usually united under one banner (either a large Corporation or an Alliance) and are usually organized into what can be called a fleet. The purpose of the group could be wide ranging from trying take over another factions space, or just simply to roam around looking for other fleets to combat.",
+      "image": "../other/large-fleet.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "77",
+      "abbreviation": "BM",
+      "title": "Bookmark (Safespot)",
+      "description": "Bookmarks are positions in a solar system. They allow a player to warp to a location in the current system that is not a major astronomical feature (such as a sun, planet, stargate or asteroid belt); in other words, they allow player to warp to an empty space that doesn't have to be near anything of importance. Making bookmarks is an essential skill for survival in low-sec and 0.0.",
+      "image": "../other/places.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of MMOGames."
+    }, {
+      "uid": "78",
+      "abbreviation": "BP",
+      "title": "Blueprint",
+      "description": "Generally abbreviated as 'BP', Blueprints lay the foundation for creating modules and ships to use or sell. Once a Blue Print is obtained, you are then able to create the specified item as long as you have the required materials; the production of one set of the product is known as a 'run'. Rare Blueprints typically generate massive profit per unit of production. There are two different types of Blueprints available in the game: Blueprint Copies (BPC) and Blueprint Originals (BPO).",
+      "image": "../other/bps.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The EVE Industrialist."
+    }, {
+      "uid": "79",
+      "abbreviation": "BPC",
+      "title": "Blueprint Copy",
+      "description": "A copy of a Blue Print (BPC) can be made from an Blue Print Original. A BPC will take on all of the research attributes of the BPO, thus a fully researched BPO makes more valuable BPCs. For smaller items, such as Ammo and Missiles, the limit on BPC runs may be in excess of 1,000 while larger items, such as ships, the limit on BPC runs are typically 20 or less. For example: a Caldari Raven BPC can be used to make anywhere between 1 to 5 of the ship before being destroyed. A Caldari Raven BPO, however, can make an unlimited number of the ship. Blue print copies are used in Invention. The process of destroys the copy, whether or not you succeed in making a Tech II BPC. Note that Materials and Time efficiency levels of the copy are irrelevant to the invented BPC.",
+      "image": "../other/bps.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The EVE Industrialist."
+    }, {
+      "uid": "80",
+      "abbreviation": "BPO",
+      "title": "Blueprint Original",
+      "description": "Most BPOs for tech 1 items can be bought from NPC corporations. BPOs for tech 2 items are obtained from research agents of NPC research corporations, and can be bought or sold on market. The tech 2 blue prints are very valuable, since you can't buy them off the market as with tech 1 blue prints and therefore just a small group of people have these blue prints of which they can produce tech 2 items. A tech 2 blue print can be a good money maker for the corporation.",
+      "image": "../other/bps.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The EVE Industrialist."
+    }, {
+      "uid": "81",
+      "abbreviation": "BYOB",
+      "title": "Bring your own Blueprint",
+      "description": "An acronym for Bring your own Blueprint.",
+      "image": "../other/bps.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The EVE Industrialist."
+    }, {
+      "uid": "81",
+      "abbreviation": "BYOM",
+      "title": "Bring your own minerals",
+      "description": "An acronym for Bring your own minerals.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "82",
+      "abbreviation": "CAREBEAR",
+      "title": "Someone who doesn't care for Player versus Player Combat",
+      "description": "The term Carebear in MMORPG's has come to refer to players who prefer not to participate in Player vs. Player (PvP) aspects of the games. Originally, the term was frequently used as a derogative by PvP players who disliked players who would not participate in combat/duels with them. However, over the years the term has come to mean players who simply prefer Player vs. Environment PvE elements of games. Some PvP players continue to use the term in a derogative way when they are frustrated with the inability to find other players to do combat with. Since the PvE elements of Eve Online are limited, many people who play the game do so for PvP. This leads to the mistaken belief that there is no place for PvE play. None the less there are several completely non-PvP Corporations active in Eve.",
+      "image": "../other/carebear.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Reddit user nmgoh2 and created by Eelis Kiy."
+    }, {
+      "uid": "83",
+      "abbreviation": "CCP",
+      "title": "Crowd Control Productions",
+      "description": "CCP hf (or Crowd Control Productions) is a video game developer, their headquarters are located in Reykjavík, Iceland. CCP Games also has subsidiary offices in Slough (Berkshire), United Kingdom; Atlanta, USA and Shanghai, China.",
+      "image": "../other/ccp-logo.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "84",
+      "abbreviation": "CEO",
+      "title": "Corporate Executive Officer",
+      "description": "The chief executive officer (CEO) or chief executive is arguably one of the most powerful and demanding occupations in EVE-Online. As chief executive, a player is responsible for growing their corporation into a thriving community, moving up the hierarchy until pan-corporation alliances are formed. The scions of such powerful alliances are usually chief executives of their most powerful member corporations. Even without an alliance to command, a CEO wields incredible power over their corporation mates. The chief executive can grant roles, control office hangar access, levy taxes and guide the general direction of the corporation. A corporation is nothing without a dynamic and helpful CEO, so choose wisely who to follow or how to lead.",
+      "image": "../other/ceo.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Polygon."
+    }, {
+      "uid": "85",
+      "abbreviation": "CORP / CRP",
+      "title": "Corporation",
+      "description": "Corporations are analogous to a guild or a clan. Each player must be in exactly one corporation. Player-made corporations can declare war on each other and their members can also freely fight amongst themselves. In the Eve universe, there are two primary kinds of corporations. The first are NPC corporations, which exist primarily as a starting point for new players and the infrastructure of the economy of the game. The second kind of corporation is the player created and owned corporation. This is the exciting part. With player corporations, players can become part of independent economic and military entities in the Eve World!",
+      "image": "../other/corp-ctrl.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of CTRL+ALT+DEL."
+    }, {
+      "uid": "86",
+      "abbreviation": "DT",
+      "title": "Downtime",
+      "description": "Downtime is the period where Tranquility is shut down for basic maintenance on the server. Downtime happens at 12:00 hours ET (GMT).",
+      "image": "../other/downtime.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Community."
+    }, {
+      "uid": "87",
+      "abbreviation": "EANM",
+      "title": "Energized Adaptive Nano Membrane",
+      "description": "It is a type of Energized Plating that is favored amongst pilots. It gives equal resistances all across the board for your armor, and a few of them offer a very efficient way of boosting your defenses.",
+      "image": "eanm.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "88",
+      "abbreviation": "ECCM",
+      "title": "Electronic Counter Counter Measures",
+      "description": "A secondary electronic array that provides a significant boost to sensor strength for a short time. ECCM is the direct counter to ECM. The only function of the module is to boost your sensor strength by about 80 to 96% of its original value. Because of this, you'll have roughly double the chance for the ECM to fail on you. A secondary effect of the increased sensor strength is that you are more difficult to pick up with Scan Probes. ECCM has been known to be ineffective against some or all NPC ECM Jamming attempts.",
+      "image": "skillbook.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "89",
+      "abbreviation": "ECM",
+      "title": "Electronic Counter Measures",
+      "description": "Electronic Counter Meaures (usually referred to as ECMs) are modules used in Electronic Warfare to deny target lock to an enemy ship. This module comes in a variety of types. Basically it breaks an enemy ship's target lock, and keeps it that way for the duration of the module's cycle time (20 seconds). Without target lock, the affected ship can't do anything that requires target lock. This covers a wide variety of things, such as shooting most weapons, warp jamming someone, or even using ECM.",
+      "image": "ecm.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "90",
+      "abbreviation": "EFF",
+      "title": "Efficiency",
+      "description": "There are several efficiencies in the Eve Universe: Material Level (formerly Material Efficiency still referred to as blueprint ME) - An attribute of blue prints effecting waste of raw materials when manufacturing. Production Level (formerly 'Production Efficiency' still referred to as blueprint PE) - An attribute of blue prints effecting speed of manufacturing. Production Efficiency - A skill reducing waste of raw materials when manufacturing. Refinery Efficiency - A skill reducing recycling waste.",
+      "image": "../bg/eve.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "91",
+      "abbreviation": "GRID",
+      "title": "GRID",
+      "description": "The Grid is the area of space immediately around a player within a system. Your overview will only pickup ships and other objects that are on the same grid section as you, meaning that you can only target ships on the same grid (items that can be seen system-wide such as stations and stargates are the exception to this).",
+      "image": "../other/grid.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of NeoGaf."
+    }, {
+      "uid": "92",
+      "abbreviation": "HARV",
+      "title": "Harvester Mining Drone",
+      "description": "Harvester Mining Drone",
+      "image": "../other/harv.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "93",
+      "abbreviation": "Hauler",
+      "title": "Industrials",
+      "description": "Industrial ships are medium-sized cargo haulers -- falling between smaller non-dedicated ships such as frigates, and their larger freighter cousins. The Industrial ship class sits somewhat off to the side of the usual ship progression path. Industrials form the lifeblood of most economic activity. Even grizzled outer-rim pirates occasionally need to haul their ill-gotten spoils in an Industrial. These ships excel in having a huge amount of of cargo hold, generally capable of carrying from 5,000 m3 to 15,000 m3 or more, depending on model and fitting. Correctly fitted, the largest industrial, the Gallente Iteron Mark V is capable of holding the contents of an entire jetcan in its cargo hold.",
+      "image": "../ships/orca.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The Neocom."
+    }, {
+      "uid": "94",
+      "abbreviation": "HC",
+      "title": "Help Channel",
+      "description": "The Help Channel is active for new accounts up to 30 days to ease players into the EVE Online experience.",
+      "image": "../other/curve.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "95",
+      "abbreviation": "HED",
+      "title": "Hedbergite Ore",
+      "description": "Hedbergite is sought after for its high concentration of isogen, although the high portion size needed for refining makes it a bit less attractive. 500 ore units are needed to refine it. Found in: Caldari space - 0.2 and below, Minmatar space - 0.2 and below.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "96",
+      "abbreviation": "HEM / HEMO",
+      "title": "Hemorphite Ore",
+      "description": "With a large portion of nocxium the Hemorphite is always a good find. It is common enough that even novice miners can expect to run into it. Hemorphite also has a bit of tritanium and isogen. It requires 500 ore units to refine. Found in: Amarr space - 0.2 and below, Gallente space - 0.2 and below.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "97",
+      "abbreviation": "IGB",
+      "title": "In-Game Browser",
+      "description": "EVE Online has a built in web browser for you to use which is a great way to visit websites IG (In Game) such as tutorials or video series.",
+      "image": "../other/evebrowser.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Simplified."
+    }, {
+      "uid": "98",
+      "abbreviation": "IMI",
+      "title": "Imicus",
+      "description": "The Imicus is a slow but hard-shelled frigate, ideal for any type of scouting activity. Used by merchant, miner and combat groups, the Imicus is usually relied upon as the operation's eyes and ears when traversing low security sectors. It should be noted it has the largest drone bay of any T1 frigate, and is the only T1 frigate with bonuses to drones. However, it still falls well short of qualifing as a frigate class 'drone boat'. Nonetheless it is capable of fielding 3 light drones (or 1 light & 1 medium) at relatively long range, however with only a little skill development, the drone range quickly becomes limited by the ships targeting range.",
+      "image": "../ships/Imicus.jpg",
+      "attribution": "Description and image thanks to EVE-Wiki."
+    }, {
+      "uid": "99",
+      "abbreviation": "INTY",
+      "title": "Interceptors",
+      "description": "Interceptors are small, extremely fast ships which can swarm large ships like hornets. They rip apart most medium and small sized ships and can immobilize larger ships very effectively. While quite weak structurally, the key strength of the Interceptor lies in its minute Signature Radius, which when combined with high top speed, makes the ship extremely difficult to hit with all but the smallest weaponry. This makes the Interceptor an ideal tackler ship, able to close swiftly and begin jamming and scrambling before a larger opponent has even finished a target lock. Interceptors are a Tech II class of ship, and have significant manufacture and training requirements compared to their Tech I counterparts (Frigates)",
+      "image": "../ships/malediction.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Imperium News."
+    }, {
+      "uid": "100",
+      "abbreviation": "ISD",
+      "title": "Interstellar Services Division",
+      "description": "ISD claims no systems. The Interstellar Services Department (ISD) is a group of volunteers who graciously share their free time in order to assist fellow players in the world of EVE. They answer questions, help resolve minor problems and act as good-will ambassadors throughout the community.",
+      "image": "../other/citadel.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Community."
+    }, {
+      "uid": "101",
+      "abbreviation": "ISO",
+      "title": "In Search Of",
+      "description": "An acronym for 'In Search of'.",
+      "image": "../bg/space-green.jpg",
+      "attribution": ""
+    }, {
+      "uid": "102",
+      "abbreviation": "ISK",
+      "title": "Interstellar Kredits",
+      "description": "ISK, or Inter-Steller Kredits are the in game currency of the Eve-Online universe. Items such as single rounds of ammunition can be purchased for a few ISK, but sales of rare or powerful equipment can fetch hundreds, millions or even billions of ISK. In addition to the traditional method of earning ISK, the game's currency can be bought using real world money through the 30 day pilot licenses (PLEX) sold by CCP which can then, with restrictions, be sold in game for ISK. There is also an approved way to trade time codes for ISK via the forums.",
+      "image": "isk.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "103",
+      "abbreviation": "KERN",
+      "title": "Kernite Ore",
+      "description": "Kernite is a fairly common ore type that yields the largest amount of mexallon of any ore types in the universe. Besides mexallon the Kernite also has a bit of tritanium and isogen. 400 units of ore are needed for refining. Found in: Amarr space - 0.7 and below, Minmatar space - 0.4 and below, Caldari space - 0.4 and below.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "104",
+      "abbreviation": "KOS",
+      "title": "Kill On Sight",
+      "description": "KOS is an acronym for 'Kill on Sight' used throughout the universe, including fleet warefare.",
+      "image": "../other/pvp.jpg",
+      "attribution": ""
+    }, {
+      "uid": "105",
+      "abbreviation": "L1 / L2",
+      "title": "Level 1 / Level 2 etc.",
+      "description": "L's are mission tiers defining the difficulty.",
+      "image": "../other/ratting.jpg",
+      "attribution": ""
+    }, {
+      "uid": "106",
+      "abbreviation": "ME / ML",
+      "title": "Material Level",
+      "description": "Blueprint Material Level(ME) is one factor in determining how many minerals will be used in manufacturing an item. ME can be increased by performing material research on a blueprint in a lab at an outpost, NPC station, or in a Player Owned Structure (POS).",
+      "image": "../other/bps.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of The EVE Industrialist."
+    }, {
+      "uid": "107",
+      "abbreviation": "MEX",
+      "title": "Mexallon",
+      "description": "Very flexible metallic mineral, dull to bright silvery green in color. Can be mixed with tritanium to make extremely hard alloys or it can be used by itself for various purposes. Fairly common in most regions. Kernite yields the most Mexallon.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "108",
+      "abbreviation": "MOB / BLOB",
+      "title": "Monster or Beast",
+      "description": "A 'Mob can refer to: A fleet of player-controlled ships. More often called a Blob. Or, a monster or other hostile NPC. Less commonly used in EVE than in other MMORGs. One EVE synomym is Rat, though a 'mob' could refer to any hostile NPC.",
+      "image": "../other/brave.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Crossing Zebras."
+    }, {
+      "uid": "109",
+      "abbreviation": "NBSI",
+      "title": "Not Blue, Shoot It",
+      "description": "NBSI is an abbreviation for Not Blue Shoot It. This term is used by alliances in 0.0 and low sec space, meaning that any player in their space that isn't 'blue' (has a positive standing with the alliance) will be fired upon; as opposed to NRDS",
+      "image": "../other/ratting.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "110",
+      "abbreviation": "NRDS",
+      "title": "Not Red, Don't Shoot",
+      "description": "Jargon: Not Red, Don't Shoot. This term is used by alliances in 0.0 space, meaning that any player in their space that isn't 'red' (has a negative standing with the alliance) should not be fired upon; as opposed to NBSI",
+      "image": "../other/combat.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Wiki-Wand."
+    }, {
+      "uid": "111",
+      "abbreviation": "NEWB",
+      "title": "Newbie",
+      "description": "We've all been there, stuck in our docking bay for the first time wondering how the hell we undock. Or why do these evil players keep killing me? Such are the concerns of the n00b, a neophyte to the EVE universe. Pity them, help them, educate them and give them 1 million and have their undying gratitude. Or if you have cloven feet and speak in tongues, gang them and pod them.",
+      "image": "../ships/pod.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Feyds Blog."
+    }, {
+      "uid": "112",
+      "abbreviation": "NOX / NOCX",
+      "title": "Nocxium Ore",
+      "description": "A highly volatile mineral only formed during supernovas, thus severely limiting the extent of its distribution. Vital ingredient in capsule production, making it very coveted. Dark Ochre yields the most Noxcium.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "113",
+      "abbreviation": "NPC",
+      "title": "Nonplayer Character",
+      "description": "A nonplayer character or NPC is an entity in the game that is not under the direct control of a player. Although most often thought of as player-interactable entities such as agents and rats, NPCs can take any of a huge variety of roles. Other examples include rogue drones, CONCORD and racial navy ships, jump gate defense batteries, nonplayer corporation officers, and the dozens if not hundreds of other types of non-player owned ships flying around in space. Even player-controlled drones are to some extent able to be considered NPCs. There are various ways of earning ISK based on the NPC characters. The most common way of doing so is by performing missions for NPC agents found inside or outside of stations. Another way of earning ISK is by killing the NPC rats found in missions, deep space complexes and asteroid belts.",
+      "image": "../other/picard-npc.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "114",
+      "abbreviation": "P&P",
+      "title": "People & Places",
+      "description": "An acronym for 'People and Places'.",
+      "image": "../other/large-fleet.jpg",
+      "attribution": ""
+    }, {
+      "uid": "115",
+      "abbreviation": "PC",
+      "title": "Price Check",
+      "description": "An acronym for 'Price Check'.",
+      "image": "../other/large-fleet.jpg",
+      "attribution": ""
+    }, {
+      "uid": "116",
+      "abbreviation": "PE",
+      "title": "Production Efficiency",
+      "description": "An acronym for 'Production Efficiency'.",
+      "image": "../other/large-fleet.jpg",
+      "attribution": ""
+    }, {
+      "uid": "117",
+      "abbreviation": "PK",
+      "title": "Player Killer",
+      "description": "An acronym for 'Player Killer'.",
+      "image": "../other/war.jpg",
+      "attribution": "Image courtesy of The Verge."
+    }, {
+      "uid": "118",
+      "abbreviation": "PHOON",
+      "title": "Typhoon Battleship",
+      "description": "The Typhoon is perhaps the most versatile (read: skill intensive) ship in all of EVE. It sports 5 turret hardpoints, 5 launcher hardpoints, and one of the largest drone bays a non-capital ship can have. However, its versatility is offset by its relatively weak powergrid. Because of this, most people fit the Typhoon with the weaker large autocannons (Dual 425mm Autocannons) which have relatively low powergrid requirements. The launcher hardpoints are either fitted with cruise or siege launchers depending upon the situation. Cruise missiles are better suited for long range damage, or for hitting cruisers. Siege missiles, on the other hand are very powerful anti-battleship weapons but are next to useless against smaller ships. The Typhoon is generally armor tanked, because of its 7 low slots. This enables a pilot to pile on lots of armor plates, hardeners, resistance plating and repairers. This in turn allows the Typhoon pilot to fit whatever is desired in the medium slots. It should be noted that the Typhoon, like all other Minmatar ships, generally do not require capacitor to fire its weapons. While the Typhoon has a relatively weak capacitor, this is offset by the fact that the capacitor is almost entirely dedicated to the armor tank. This makes the Typhoon one of the toughest battleships in the universe of EVE, when fitted properly. It should be noted that due to the Typhoon's abundance of low slots, a reasonable passive shield tank may also be fitted providing the pilot is prepared to sacrifice all his low and medium slots, as well as his rig slots. This limits the Typhoon's offensive capacity, as weapon upgrades cannot be fitted, but allows for more shield orientated players to utilize the ship as well.",
+      "image": "../ships/typhoon.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Online Ships."
+    }, {
+      "uid": "119",
+      "abbreviation": "PLAG",
+      "title": "Plagioclase Ore",
+      "description": "Plagioclase is not amongst the most valuable ore types around, but it has the largest amount of pyerite of any ore and is thus always in constant demand. It also yields some tritanium and mexallon. It requires 333 ore units to refine. Found in: Gallente space - 0.9 and below, Minmatar space - 0.9 and below, Caldari space - 0.7 and below.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "120",
+      "abbreviation": "POS",
+      "title": "Pod On Sight",
+      "description": "An acronym for 'Pod on Sight'.",
+      "image": "../ships/pod.png",
+      "attribution": "Image courtesy of Feyds Blog."
+    }, {
+      "uid": "121",
+      "abbreviation": "PROD",
+      "title": "Production",
+      "description": "An acronym for 'Production'.",
+      "image": "../other/production.jpg",
+      "attribution": ""
+    }, {
+      "uid": "122",
+      "abbreviation": "PVM",
+      "title": "People vs Mobs",
+      "description": "An acronym for 'People vs Mobs'.",
+      "image": "../other/combat.png",
+      "attribution": "Image courtesy of WikiWand."
+    }, {
+      "uid": "123",
+      "abbreviation": "PVP",
+      "title": "Player versus Player",
+      "description": "PvP means Player versus Player, actions in game which affects other players in some way. Player vs Player is mostly thought of in the combat sense. However in a more traditional sense PVP is the act in engaging another human controlled player in a competition. This includes combat, trading, and industry as well as other area where you try to get ahead in the game.",
+      "image": "../other/fleet-battle.jpg",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "124",
+      "abbreviation": "PYE",
+      "title": "Pyerite Mineral",
+      "description": "A soft crystal-like mineral with a very distinguishing orange glow as if on fire. Used as conduit and in the bio-chemical industry. Commonly found in many asteroid-ore types. Plagioclase yields the most Pyerite.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "125",
+      "abbreviation": "Pyro",
+      "title": "Pyroxeres Ore",
+      "description": "Pyroxeres is an interesting ore type, as it is very plain in most respects except one - deep core refining yields a little bit of nocxium, increasing its value considerbly. It also has a large portion of tritanium and some pyerite and mexallon. 333 ore units are needed to refine. Found in: Amarr space - 0.9 and below, Caldari space - 0.9 and below.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "126",
+      "abbreviation": "Rax",
+      "title": "Thorax Cruiser",
+      "description": "The Thorax is a fairly good all-around cruiser. It carries five high slots and an equal number of turret hardpoints, so with its 5% bonus to Medium Hybrid Turret damage and 5% less max capacitor penalty for Microwarpdrive usage per level of Gallente Cruiser, the Thorax is often employed as a blaster boat, using a MWD to get close to the target and then shredding it with blasters at extremely close range. Often a Thorax so used will include a webifier to slow down smaller vessels, allowing the blasters to track them. The Thorax-class cruiser is the latest combat ship commissioned by the Federation. While the Thorax is a very effective ship at any range, typical of modern Gallente design philosophy it is most effective when working at extreme close range where its blasters and hordes of combat drones tear through even the toughest of enemies. Gallente Cruiser Skill Bonus: 5% bonus to Medium Hybrid Turret damage per level and 5% increase to MicroWarpdrive capacitor bonus per level.",
+      "image": "../ships/thorax.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Chruker."
+    }, {
+      "uid": "127",
+      "abbreviation": "RCU",
+      "title": "Reactor Control Unit",
+      "description": "This low slot module will provide a 10-15% boost to your Power Grid, with no stacking penalty.",
+      "image": "../other/struct.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Community."
+    }, {
+      "uid": "128",
+      "abbreviation": "RE",
+      "title": "Refining Efficiency",
+      "description": "An acronym for 'Refining Efficiency'.",
+      "image": "../other/refining.png",
+      "attribution": "Image courtesy of EVE Prosper."
+    }, {
+      "uid": "129",
+      "abbreviation": "REF",
+      "title": "Refining",
+      "description": "Refining is the process of items, particularly Ore, into minerals. When referring to the process of converting modules, ships, etc, it is typically called Reprocessing. Refining and reprocessing can be performed at most NPC stations, as well as at outposts, mobile refineries at player owned stations, or at one of the conquerable stations.",
+      "image": "../other/refining.png",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Prosper."
+    }, {
+      "uid": "130",
+      "abbreviation": "RIC",
+      "title": "Rig Component",
+      "description": "A 'ric' or 'rics' are rig components, which are found from salvaging wrecks using a salvager and the skill Salvaging. They are used in the construction of Rigs.",
+      "image": "../other/rigs.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of EVE Black Ops."
+    }, {
+      "uid": "131",
+      "abbreviation": "ROF",
+      "title": "Rate of Fire",
+      "description": "An acronym for 'Rate of Fire'.",
+      "image": "../other/fleet-battle.jpg",
+      "attribution": ""
+    }, {
+      "uid": "132",
+      "abbreviation": "SCORD",
+      "title": "Scordite Ore",
+      "description": "Scordite is amongst the most common ore types in the known world. It has a large portion of tritanium plus a fair bit of pyerite. Good choice for those starting their mining careers. 333 ore units are needed for refining. Found in: All systems.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "133",
+      "abbreviation": "SCORP",
+      "title": "Scorpion Battleship",
+      "description": "The Scorpion is the holder of many titles in the world of ships. Indisputably, it is the king of ECM. capable of fitting a full 8 jammers, if the pilot is willing to fit an armor tank, with as much as a 75% increase to its ECM effectiveness, and 100% bonus to range, the Scorpion is a very popular ship with budding PvP corps, who cannot necessarily bring the firepower to simply annihilate an enemy without taking losses. Until the Tyrannis patch, many considered it to be the ugliest ship in the game. All things considered, the Scorpion is a versatile ship, and although incapable of doing significant DPS, its potential tanking capacity or ECM capacity, thanks to the 8 med slots, is simply staggering.",
+      "image": "../ships/scorpion.jpg",
+      "attribution": "Description and image thanks to EVE-Wiki."
+    }, {
+      "uid": "134",
+      "abbreviation": "T2",
+      "title": "Tech 2",
+      "description": "The phrase Tech 2 (or T2) denotes a Ship, Ammunition, or a Module that is usually much more powerful in one or more ways than a regular, Tech 1 version of that item.",
+      "image": "../other/t2.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Redbubble."
+    }, {
+      "uid": "135",
+      "abbreviation": "TQ",
+      "title": "Tranquility Server",
+      "description": "Tranquility, or TQ, is the name of the live server that all players currently connect to in order to play EVE. It has a scheduled daily downtime of 1 hour between 11am-12pm GMT. Another live server, called Serenity is being developed for use in China. There are also two test servers, Singularity and Multiplicity.",
+      "image": "../other/server-farm.jpg",
+      "attribution": "Description thanks to EVE-Wiki. Image courtesy of Imperium News."
+    }, {
+      "uid": "136",
+      "abbreviation": "TRIT",
+      "title": "Tritanium Mineral",
+      "description": "The main building block in space structures. A very hard, yet bendable metal. Cannot be used in human habitats due to its instability at atmospheric temperatures. Very common throughout the EVE universe. Veldspar yields the most Tritanium.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "137",
+      "abbreviation": "TTYI",
+      "title": "Talk to You In-game",
+      "description": "An acronym for 'Talk to you In Game'.",
+      "image": "../other/fleet-battle.jpg",
+      "attribution": ""
+    }, {
+      "uid": "138",
+      "abbreviation": "uBPC",
+      "title": "Unlimited Blueprint Copy",
+      "description": "An acronym for 'Unlimited Blueprint Copy'.",
+      "image": "../other/bps.png",
+      "attribution": "Image courtesy of The EVE Industrialists."
+    }, {
+      "uid": "139",
+      "abbreviation": "VELD",
+      "title": "Veldspar Ore",
+      "description": "The most common ore type in the known world, Veldspar can be found most everywhere. It is still in constant supply as it holds a large portion of the much-used tritanium mineral. It requires 333 ore units to refine. Found in: All systems.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
+    }, {
+      "uid": "140",
+      "abbreviation": "WTB",
+      "title": "Want to Buy",
+      "description": "An acronym for 'Want to Buy'.",
+      "image": "isk.png",
+      "attribution": ""
+    }, {
+      "uid": "141",
+      "abbreviation": "WTG",
+      "title": "Way To Go",
+      "description": "An acronym for 'Way To Go'.",
+      "image": "../other/fleet-battle.jpg",
+      "attribution": ""
+    }, {
+      "uid": "142",
+      "abbreviation": "WTS",
+      "title": "Want to Sell",
+      "description": "An acronym for 'Want to Sell'.",
+      "image": "isk.png",
+      "attribution": ""
+    }, {
+      "uid": "143",
+      "abbreviation": "WTT",
+      "title": "Want to Trade",
+      "description": "An acronym for 'Want to Trade'.",
+      "image": "isk.png",
+      "attribution": ""
+    }, {
+      "uid": "144",
+      "abbreviation": "ZYD",
+      "title": "Zydrine Mineral",
+      "description": "Only found in huge geodes; rocks on the outside with crystal-like quartz on the inside. The rarest and most precious of these geodes are those that contain the dark green zydrine within. Very rare and very expensive. Crokite yields the most Zydrine.",
+      "image": "icon_mining.png",
+      "attribution": "Description thanks to EVE-Wiki."
     }
   ]
 }
