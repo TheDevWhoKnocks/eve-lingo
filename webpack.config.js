@@ -48,7 +48,7 @@ module.exports = {
       {
         test: /\.(jpe?g|gif|png)$/,
         loader: 'url-loader'
-      }
+		}
     ]
   },
   plugins: [
@@ -63,6 +63,11 @@ module.exports = {
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
       }
-    })
+  	}),
+  	new webpack.optimize.UglifyJsPlugin({
+	  compressor: {
+		  warnings: false
+	  }
+  })
   ]
 }
